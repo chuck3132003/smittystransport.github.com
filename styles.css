@@ -1,0 +1,269 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   line-height: 1.5;
+   padding: 0;
+   margin: 0;
+   background-color: lightgray;
+}
+
+.container {
+   width: 80%;
+   margin: auto;
+   overflow: hidden;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+.button_1 {
+   height: 38px;
+   background: turquoise;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: black;
+}
+
+header {
+   background: #35424a;
+   color: whitesmoke;
+   padding-top: 30px;
+   min-height: 70px;
+   border-bottom: turquoise 3px solid;
+}
+
+header a{
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px;
+   
+}
+
+header li {
+   float: left;
+   display: inline;
+   padding: 0 20px 0 20px;
+   
+}
+
+header #branding {
+   float: left;
+}
+
+header #branding h1 {
+   margin: 0;
+}
+
+header nav {
+   float: right;
+   margin-top: 10px;
+}
+
+header a:hover {
+   color:#cccccc;
+   font-weight: bold;
+}
+
+aside{
+   float: right;
+   background-color: #35424a;
+   border-radius: 50px;
+   margin: 50px;
+   text-align: center;
+   padding: 25px;
+   padding-top: 2px;
+   margin-top: 150px
+   
+   
+   
+}
+
+aside h1 {
+
+   text-align: center;
+   font-size: 19px;
+}
+
+aside form {
+   display: grid;
+}
+
+.button_2 {
+   margin-top: 25px;
+   padding: 10px;
+   border-radius: 18px;
+   background-color: turquoise;
+}
+
+#showcase {
+   min-height: 550px;
+   background: url('https://i.postimg.cc/W1dps83M/reartruck.jpg') no-repeat;
+   text-align: center;
+   color:whitesmoke;
+   padding-right: 90px;
+   text-shadow: 3px 3px black;
+}
+
+#showcase h1 {
+   margin-top: 100px;
+   font-size: 45px;
+   margin-bottom: 10px;
+}
+
+#showcase p {
+   font-size: 20px;
+}
+
+#newsletter {
+   padding: 15px;
+   color: white;
+   background: #35424a;
+}
+
+#newsletter h1 {
+   float: left;
+   font-size: 25px;
+}
+
+#newsletter form {
+   float: right;
+   margin-top: 21px;
+}
+
+#newsletter input[type="email"]{
+   padding: 4px;
+   height: 25px;
+   width: 250px;
+}
+
+#main p{
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main_2 {
+   margin-bottom: 100px;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   top: 200px;
+}
+
+
+
+.imagesidebar {
+   float: right;
+   width: 580px;
+   bottom: 150px;
+   position: relative;
+   box-shadow: 30px 20px 10px 0px black;
+
+}
+
+.page-title {
+   text-align: center;
+   font-size: 35px;
+   background-color: turquoise;
+}
+
+.page-title2{
+   text-align: center;
+   font-size: 35px;
+   position: relative;
+   background-color: turquoise;
+}
+
+.boxed {
+   border: 1px solid black
+   
+}
+
+.page-title3{
+   text-align: center;
+   font-size: 35px;
+   position: relative;
+   background-color: turquoise;
+}
+
+p::first-letter{
+   font-size: 35px;
+   
+}
+
+.contact-form{
+   width: 85%;
+   max-width: 600px;
+   background: #35424a;
+   top: 50%;
+   left: 50%;
+   padding: 30px 40px;
+   box-sizing: border-box;
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 0 0 20px black;
+   margin-top: 20px;
+   margin-left: 30%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact-form h1{
+
+   margin-top: 0;
+   font-weight: 200;
+}
+
+.txtb{
+   border:1px solid black;
+   margin: 8px 0;
+   padding: 12px 18px;
+   border-radius: 8px;
+}
+
+.txtb label{
+   display: block;
+   text-align: left;
+   color: black;
+   text-transform: uppercase;
+   font-size: 16px;
+}
+
+.txtb input, .txtb textarea{
+   width: 50%;
+   border-radius:  8px;
+   background: whitesmoke;
+   outline: none;
+   font-size: 14px;
+   margin-bottom: 20px;
+   
+   
+}
+
+.btn{
+   display: block;
+   background: turquoise;
+   padding: 14px 0;
+   text-transform: uppercase;
+   cursor: pointer;
+   margin-top: 8px;
+   width: 100%;
+   border-radius: 8px;
+   
+
+}
+
+
+footer {
+   padding: 20px;
+   margin-top: 20px;
+   color: black;
+   background-color: turquoise;
+   text-align: center;
+}
+
+
+
+
+
+
